@@ -45,7 +45,7 @@ turn_right = False
 #Código mínimo requerido por pygame
 
 #bucle principal de pygame
-while True
+while True:
 
     #Chequear evento
     for event in pygame.event.get():
@@ -61,19 +61,19 @@ while True
     
             #Adelante
             if event.key == K_w:
-            forward = True
+                forward = True
 
             #Retroceder
             if event.key == K_s:
-            reverse = True
+                reverse = True
     
             #Izquierda
             if event.key == K_a:
-            turn_left = True
+                turn_left = True
 
             #Derecha
             if event.key == K_d:
-            turn_right = True
+                turn_right = True
         
         #PASO 8
         #Liberar tecla: Evento
